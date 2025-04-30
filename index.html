@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgenticED LLC</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0f0f0f;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #0f0f0f;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 500;
+    }
+    .hero {
+      padding: 100px 40px;
+      text-align: center;
+      background: #0f0f0f url('red-star.png') no-repeat center/contain;
+    }
+    .hero h1 {
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 20px;
+      max-width: 700px;
+      margin: 0 auto 30px;
+    }
+    .hero button {
+      padding: 12px 24px;
+      margin: 10px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+    .btn-primary {
+      background-color: #c62828;
+      color: #fff;
+    }
+    .btn-secondary {
+      background-color: #333;
+      color: #fff;
+    }
+    .section {
+      padding: 60px 40px;
+    }
+    .section h2 {
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+    .solutions {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .solution-card {
+      width: 220px;
+      padding: 20px;
+      background: #1a1a1a;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .about {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+    .about img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+    }
+    footer {
+      padding: 20px 40px;
+      background-color: #111;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+    }
+    .footer-links a {
+      margin-left: 20px;
+      color: #ccc;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>AgenticED</strong></div>
+    <nav>
+      <a href="#solutions">Solutions</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="#demo">Schedule a Demo</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Powering Learning Through Augmented Technologies</h1>
+    <p>AgenticED LLC develops smart, human-centered tools that amplify teaching, personalize learning, and elevate educational equity — without replacing the people at the heart of it.</p>
+    <button class="btn-primary">Explore Our Solutions</button>
+    <button class="btn-secondary">Meet the Founder</button>
+  </section>
+
+  <section id="solutions" class="section">
+    <h2>Solutions</h2>
+    <div class="solutions">
+      <div class="solution-card">AI Tutoring Agents</div>
+      <div class="solution-card">Data-Driven Instructional Tools</div>
+      <div class="solution-card">Educator Dashboards</div>
+      <div class="solution-card">Personalized Learning Plans</div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About</h2>
+    <div class="about">
+      <img src="founder.jpg" alt="Dr. Hank Fien">
+      <p>AgenticED LLC was founded by Dr. Hank Fien, an endowed professor with a passion for reimagining education. We embrace technologies that augment and empower educators and learners, creating more personalized and effective learning experiences.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact & Demo</h2>
+    <p>Email: <a href="mailto:info@agenticed.com">info@agenticed.com</a></p>
+    <button class="btn-secondary" id="demo">Schedule a Demo</button>
+  </section>
+
+  <footer>
+    <div>&copy; 2024 AgenticED LLC</div>
+    <div class="footer-links">
+      <a href="#">Email</a>
+      <a href="#">Contact</a>
+      <a href="#">Privacy</a>
+    </div>
+  </footer>
+</body>
+</html>
